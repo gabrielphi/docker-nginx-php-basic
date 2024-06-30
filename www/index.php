@@ -14,4 +14,6 @@ echo '<h2>Conectado com sucesso.<h2>';
 } catch (PDOException $e) {
     echo 'ERROR: ' . $e->getMessage();
 }
+
+echo gethostname();
 ?>
