@@ -8,11 +8,10 @@ Inicialmente, clonar o repositorio em questão para dentro da máquina e iniciar
 git clone https://github.com/gabrielphi/docker-nginx-php-basic.git ; cd docker-nginx-php-basic 
 ```
 
-Para iniciar o projeto, seguem duas alternativas
+Para iniciar o projeto
 
 ```
 docker compose up -d
-docker-compose up -d
 ```
 
 Para acessar, 
