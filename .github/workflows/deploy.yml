@@ -19,7 +19,7 @@ jobs:
         SOURCE: "./"
         REMOTE_HOST: 100.26.55.7
         REMOTE_USER: ubuntu
-        TARGET: /opt
+        TARGET: /opt/docker-nginx-php-basic
         EXCLUDE: "/dist/, /node_modules/, **.env, rebuild_app.sh, watcher.sh"
 
     - name: Copy files with SSH
@@ -30,7 +30,7 @@ jobs:
         SOURCE: "./"
         REMOTE_HOST: 52.90.183.17
         REMOTE_USER: ubuntu
-        TARGET: /opt
+        TARGET: /opt/docker-nginx-php-basic
         EXCLUDE: "/dist/, /node_modules/, **.env, rebuild_app.sh, watcher.sh"
         SCRIPT_AFTER: |
           cd /opt
