@@ -11,11 +11,12 @@ services:
   links:
   - php
  php:
-  image: php:7.3-fpm
   container_name: php-fpm
+  build: .
+  image: php-custom
   volumes:
   - ./www:/www
-    links:
+  links:
   - db
  db:
   image: mysql:5.7
