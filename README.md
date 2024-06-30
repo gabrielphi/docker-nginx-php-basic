@@ -14,4 +14,6 @@ Para iniciar o projeto
 docker compose up -d
 ```
 
-Para acessar, 
+Para acessar, use o seu IP Publico ou localhost.
+
+OBS: Aplicação usa porta 80, não pode haver conflitos na porta respectiva na hora de inicializar.
