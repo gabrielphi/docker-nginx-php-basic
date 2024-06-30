@@ -16,4 +16,7 @@ echo '<h2>Conectado com sucesso.<h2>';
 }
 
 echo gethostname();
+
 ?>
+
+Teste
