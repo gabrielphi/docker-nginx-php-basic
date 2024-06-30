@@ -32,3 +32,7 @@ jobs:
         REMOTE_USER: ubuntu
         TARGET: /opt
         EXCLUDE: "/dist/, /node_modules/, **.env, rebuild_app.sh, watcher.sh"
+        SCRIPT_AFTER: |
+          cd /opt
+          docker compose down
+          docker compose up -d
