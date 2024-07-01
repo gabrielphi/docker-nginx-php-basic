@@ -32,7 +32,3 @@ jobs:
         REMOTE_USER: ubuntu
         TARGET: /opt/docker-nginx-php-basic
         EXCLUDE: "/dist/, /node_modules/, **.env, rebuild_app.sh, watcher.sh"
-        SCRIPT_AFTER: |
-          cd /opt/docker-nginx-php-basic
-          docker compose down
-          docker compose up -d
