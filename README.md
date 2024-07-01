@@ -36,4 +36,8 @@ OBS: Aplicação usa porta 80, não pode haver conflitos na porta respectiva na 
 ## index.php
 - **index.php**: A página inicial do projeto existe a configuração gethostname() apenas para fins de testes relacionados ao LoadBalancer, e emite um texto escrito "Conectado com sucesso" quando a conexão com o banco de dados mysql é efetuada com sucesso. Não foi realizada a execução de um select, mas o mesmo poderia ser colocado logo abaixo da conexão, iniciando com um insert e seguido por um select.
 
+## Github Actions
+
+- **Github actions**: Github actions foi utilizado nesse projeto para realizar a comunicação direta com os 2 servidores da AWS que estão fazendo o load balancer, essa comunicação ocorre sem problemas e atualiza o código fonte nos servidores, sendo no atual momento necessário uma reinicialização manual para efetivas as atualizações, algo que em ambiente produtivo é importante que não seja reiniciado no "quente"
+
   
